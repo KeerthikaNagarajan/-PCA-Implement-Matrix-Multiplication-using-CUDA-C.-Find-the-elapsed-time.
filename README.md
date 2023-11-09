@@ -1,31 +1,19 @@
 # PCA-Implement-Matrix-Multiplication-using-CUDA-C.-Find-the-elapsed-time.
-Implement Matrix Multiplication using GPU.
-
 ## Aim:
-To implement Matrix Multiplication using GPU.
-
-
+To Implement Matrix Multiplication using GPU
 ## Procedure:
-### Step 1 :
-Include the required files and library.
-
-### Step 2 :
-Declare the block size and the size of elements .
-
-### Step 3 :
-Introduce Kernel function to perform matrix multiplication.In the kernal function,decalre the row column size and initialize the sum to be 0,then using for loop calculate the sum.
-
-### Step 4 :
-Intoduce a Main function, in the main method declare the required variables and Initialize the matrices 'a' and 'b'.Allocate memory on the device and then copy the input matrices from host to device memory and set the grid and block sizes . Launch the kernel,Copy the result matrix from device to host memory ,Print the result matrix and the elapsed time followed by freeing the device memory.
-
-### Step 5 :
-Save the program and execute it .
-## Program
+1. Include the required files and library.
+2. Declare the block size and the size of elements .
+3. Introduce Kernel function to perform matrix multiplication.In the kernal function,decalre the row column size and initialize the sum to be 0,then using for loop calculate the sum.
+4. Intoduce a Main function, in the main method declare the required variables and Initialize the matrices 'a' and 'b'.Allocate memory on the device and then copy the input matrices from host to device memory and set the grid and block sizes . Launch the kernel,Copy the result matrix from device to host memory ,Print the result matrix and the elapsed time followed by freeing the device memory.
+5. Save the program and execute it .
+## Program:
 ```
-DEVELOPED BY : Keerthika N
-REGISTER NO : 212221230049
+Developed By: Keerthika N
+Register No. 212221230049
 ```
-```
+```python
+
 #include <stdio.h>
 #include <sys/time.h>
 
@@ -113,7 +101,6 @@ int main()
 }
 ```
 ## Output:
-![280508346-650504ac-42ab-44ea-9555-772f1907497d](https://github.com/KeerthikaNagarajan/-PCA-Implement-Matrix-Multiplication-using-CUDA-C.-Find-the-elapsed-time./assets/93427089/6439d4a0-f210-435e-88f0-ecd69283341e)
-
+![5op](https://github.com/Shavedha/-PCA-Implement-Matrix-Multiplication-using-CUDA-C.-Find-the-elapsed-time./assets/93427376/064da029-2feb-40ee-82ee-f9549daf7f5e)
 ## Result:
-he implementation of Matrix Multiplication using GPU is done successfully
+Thus Matrix Multiplication implementation using GPU is done successfully.
